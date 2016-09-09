@@ -8,8 +8,8 @@ function Sprite (x, y, rotation, cannotDisappear) {
 	s.alpha = 1;
 	s.mode = Sprite.MODE_APPEAR;
 	s.cannotDisappear = cannotDisappear;
-	s.color = "#FF0000";
-	//s.color = "#FFFFFF";
+	
+	s.color = "#FFFFFF";
 	s.startDrawX = -particleW / 2;
 	s.startDrawY = -particleH / 2;
 }
