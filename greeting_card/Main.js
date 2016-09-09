@@ -5,9 +5,11 @@ var canvasStyleWidth, canvasStyleHeight, marginLeft = 0, marginTop = 0;
 var isFirefox = true, mobile = false;
 var instructionsTxt;
 var instructionsIndex = 0, instructionsContents = [
-	"Tap to open my greeting card~",
-	"Well, continue~",
-	"Don't stop tapping until you know my meaning ^_^"
+	//"Tap to open my greeting card~",
+	//"Well, continue~",
+	//"Don't stop tapping until you know my meaning ^_^"
+	"点击打开贺卡~",
+	"Well，继续~",
 ];
 var showList = new Array();
 var positionList = new Array();
