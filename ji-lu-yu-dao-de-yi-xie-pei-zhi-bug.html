@@ -3,11 +3,12 @@
 
 <head>
 
-    <title>KEEP CODING - Conan Doyle</title>
+    <title>记录遇到的一些配置bug</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="jay">
-    <meta name="description" content=" stay learning,stay coding. ">
+    <meta name="description" content="记录一些非代码问题的bug
+">
     <link rel="shortcut icon" href="images/favicon.ico">
 
     <!-- schema.org -->
@@ -37,14 +38,14 @@
     <!-- Twitter Feed -->
 
 <meta name="twitter:creator" content="">
-<meta name="twitter:url" content="http://jay3zhang.github.io/author/conan-doyle.html">
-<meta name="twitter:title" content="KEEP CODING ~ Conan Doyle">
-<meta name="twitter:description" content="Articles de Conan Doyle">
+<meta name="twitter:url" content="http://jay3zhang.github.io/ji-lu-yu-dao-de-yi-xie-pei-zhi-bug.html">
+<meta name="twitter:title" content="KEEP CODING ~ 记录遇到的一些配置bug">
+<meta name="twitter:description" content="记录一些非代码问题的bug">
 
 <!-- Facebook Meta Data -->
-<meta property="og:title" content="KEEP CODING ~ Conan Doyle" />
-<meta property="og:description" content="Articles de Conan Doyle" />
-<meta property="og:image" content="images/faceQ.png" />
+<meta property="og:title" content="KEEP CODING ~ 记录遇到的一些配置bug" />
+<meta property="og:description" content="记录一些非代码问题的bug" />
+<meta property="og:image" content="" />
 </head>
 
 <body>
@@ -83,12 +84,15 @@
 
 
     <div class="container">
+
+
 <!-- category menu -->
 <div class="row-label cat-row inline">
     
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
         <p class="text-center cat-bar">
         <a href='http://jay3zhang.github.io/category/linuxunix.html' class="cat-label">Linux&Unix</a>
+        <a href='http://jay3zhang.github.io/category/note.html' class="cat-label">Note</a>
         <a href='http://jay3zhang.github.io/category/python.html' class="cat-label">python</a>
         </p>
         <hr>
@@ -98,6 +102,13 @@
 <!-- end category menu -->
 <hr><br><br>
 
+<style>
+pre {
+    background-color: #242d3d;
+    color: #fff;
+    border: solid 0px;
+}
+</style>
 
 <div class="row">
 
@@ -173,10 +184,7 @@
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 side-cont">
                         <p class="side-tags">
                             <a href="http://jay3zhang.github.io/tag/python3.html"><span class="nobr"><i class="fa fa-tag" aria-hidden="true"></i>python3</span> </a>
-                            <a href="http://jay3zhang.github.io/tag/publishing.html"><span class="nobr"><i class="fa fa-tag" aria-hidden="true"></i>publishing</span> </a>
-                            <a href="http://jay3zhang.github.io/tag/facts.html"><span class="nobr"><i class="fa fa-tag" aria-hidden="true"></i>Facts</span> </a>
-                            <a href="http://jay3zhang.github.io/tag/pelican.html"><span class="nobr"><i class="fa fa-tag" aria-hidden="true"></i>pelican</span> </a>
-                            <a href="http://jay3zhang.github.io/tag/ansible.html"><span class="nobr"><i class="fa fa-tag" aria-hidden="true"></i>Ansible</span> </a>
+                            <a href="http://jay3zhang.github.io/tag/test.html"><span class="nobr"><i class="fa fa-tag" aria-hidden="true"></i>test</span> </a>
                             <a href="http://jay3zhang.github.io/tag/python2.html"><span class="nobr"><i class="fa fa-tag" aria-hidden="true"></i>python2</span> </a>
                             
                         </p>
@@ -200,26 +208,84 @@
 
     <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 article-cont">
-            <h3><i class="fa fa-file-text-o" aria-hidden="true"></i> Latest:</h3>
+            <h4><i class="fa fa-file-text-o" aria-hidden="true"></i>
+            
+            <a href="http://jay3zhang.github.io/category/note.html" class='article-cat' rel="bookmark"
+                        title="Permalink to Note">>Note:</a>             
+            
+            </h4>
             <br> 
-             <div>
-                <h2 class="article-title"><a href="http://jay3zhang.github.io/my-super-post.html" rel="bookmark" class="article-title" title="Permalink to My super title">My super title</a></h2>
-                <p>Short version for index and feeds</p>
-                <p class="article-footer">2012-03-04(Sunday) 11:02 | <a href="http://jay3zhang.github.io/category/python.html" class='article-cat' rel="bookmark"
-                        title="Permalink to Python">Python</a> | <a href="http://jay3zhang.github.io/tag/pelican.html"><i class="fa fa-tag" aria-hidden="true"></i>pelican </a>
-<a href="http://jay3zhang.github.io/tag/publishing.html"><i class="fa fa-tag" aria-hidden="true"></i>publishing </a>
-</p>
-            </div><br>              <br><br>
-            <div class="pull-right">
+            
+            <div>
+                <h1 class="article-title">记录遇到的一些配置bug</h1>
+
+                                
+                <p class="article-footer">2017-03-20(Monday) 11:03 | jay3zhang | <a href="http://jay3zhang.github.io/category/note.html" class='article-cat' rel="bookmark"
+                        title="Permalink to Note">Note</a> | </p>
+				
+				<p><h2>1. py2和py3共存时，python3 pip list 的格式问题</h2>
+<p>问题：
+　　DEPRECATION: The default format will switch to columns in the future. You can use --format=(legacy|columns) (or define a format=(legacy|columns) in your pip.conf under the [list] section) to disable this warning.</p>
+<p>解决的办法：
+　　在<code>C:\\ProgramData</code>文件夹下创建pip文件夹，然后在该文件夹下新建<code>pip.ini</code> 文件（例如<code>C:\ProgramData\pip\pip.ini</code>）。然后打开文件，在文件中写入</p>
+<div class="highlight"><pre><span></span><span class="k">[list]</span>
+<span class="na">format</span><span class="o">=</span><span class="s">columns</span>
+</pre></div>
+
+
+<h2>2. 用pelican 生成博客时，会出现.md文件的date无法解析</h2>
+<p>问题：
+　　Value error: embedded null byte when using pelican content command to generate my site on Windows</p>
+<p>解决办法：
+　　设定正确的locale，中文参见<a href="http://xingjian.me/how-to-fix-value-error-embedded-null-byte-error.html">这-中文</a>，and <a href="http://stackoverflow.com/a/42869865/7729978">here for english</a></p>
+<p>还有一种解决方法是在配置文件pelicanconf.py中设置locale，</p>
+<p>eg.<code>locale = 'en'</code></p>
+<h2>mongodb报错: 计算机积极拒绝服务</h2>
+<p>errno:10061由于目标计算机积极拒绝，无法连接</p>
+<p>原因：mongodb服务未启动，mongodb安装时不会作为windows服务安装，在<strong>服务</strong>里没有mongodb相应的项。</p>
+<p>解决：把mongodb作为windows服务，开机自动启动，也可以设为手动开启。另外建议把mongodb加到环境变量path中，这样就不用<code>cd</code>到<code>bin</code>目录下才能运行mongodb了。
+详情参见<a href="http://www.cnblogs.com/meitian/p/4614389.html">这里</a></p>
+<h2>mongodb 改变默认data路径</h2>
+<p>运行mongod命令，会以默认路径d:/Data/db 运行，每次输入指定路径太麻烦。改变方法：</p></p>
+						
+            </div><br> 
+
+
+            <div class="entry-social">
+                <span class="twitter"><a target="_blank" rel="nofollow" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=400,width=700');return false;" title="Twitter" href="https://twitter.com/share?url=http://jay3zhang.github.io/ji-lu-yu-dao-de-yi-xie-pei-zhi-bug.html&text=记录遇到的一些配置bug&via="><img src="http://jay3zhang.github.io/theme/images/icons/twitter-s.png"></a></span>
+
+                <span class="gplus"><a target="_blank" title="Google +" href="https://plus.google.com/share?url=http://jay3zhang.github.io/ji-lu-yu-dao-de-yi-xie-pei-zhi-bug.html&hl=fr" rel="nofollow" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=450,width=650');return false;"><img src="http://jay3zhang.github.io/theme/images/icons/google-s.png"></a></span>
+
+                <span class="facebook"><a target="_blank" title="Facebook" rel="nofollow" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=500,width=700');return false;" href="https://www.facebook.com/sharer.php?u=http://jay3zhang.github.io/ji-lu-yu-dao-de-yi-xie-pei-zhi-bug.html&t=记录遇到的一些配置bug"><img src="http://jay3zhang.github.io/theme/images/icons/facebook-s.png"></a></span>
+
+                <a  target="_blank" title="Linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=http://jay3zhang.github.io/ji-lu-yu-dao-de-yi-xie-pei-zhi-bug.html&title=记录遇到的一些配置bug" rel="nofollow" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=450,width=650');return false;"><img src="http://jay3zhang.github.io/theme/images/icons/linkedin-s.png"></a>
+
+                <span class="mail"><a href="mailto:?subject=记录遇到的一些配置bug&amp;body=Viens découvrir un article à propos de [记录遇到的一些配置bug] sur le site de jay. http://jay3zhang.github.io/ji-lu-yu-dao-de-yi-xie-pei-zhi-bug.html" title="Share by Email" target="_blank"><img src="http://jay3zhang.github.io/theme/images/icons/mail-s.png"></a></span>
             </div>
+            <br>
 
         </div>
+        <br>
+		<!--相关文章-->
+ 
+		
+		
+		<!-- 邻居导航-->
+		<div class="pagination">
+		
+      <ul>
+        <li class="prev"><a href="http://jay3zhang.github.io/diffs-between-python2-and-python3.html">← Previous</a></li>
+        <li><a href="/archives.html">Archive</a></li>
+        <li class="next"><a href="/">Next →</a></li>
+      </ul>  
+    </div>
+		
+         
     </div>
     <!--  end content -->
 
-
-
 </div>
+
 		
         <div class="row">
             <br><br>

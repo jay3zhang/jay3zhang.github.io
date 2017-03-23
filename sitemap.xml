@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://jay3zhang.github.io/</loc>
-<lastmod>2017-03-22T11:06:12-00:00</lastmod>
+<lastmod>2017-03-23T11:12:55-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://jay3zhang.github.io/archives.html</loc>
-<lastmod>2017-03-22T11:06:12-00:00</lastmod>
+<lastmod>2017-03-23T11:12:55-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://jay3zhang.github.io/tags.html</loc>
-<lastmod>2017-03-22T11:06:12-00:00</lastmod>
+<lastmod>2017-03-23T11:12:55-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://jay3zhang.github.io/categories.html</loc>
-<lastmod>2017-03-22T11:06:12-00:00</lastmod>
+<lastmod>2017-03-23T11:12:55-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -36,6 +36,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <lastmod>2017-03-04T11:02:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.3</priority>
+</url>
+
+<url>
+<loc>http://jay3zhang.github.io/ji-lu-yu-dao-de-yi-xie-pei-zhi-bug.html</loc>
+<lastmod>2017-03-20T11:03:00+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
 </url>
 
 <url>
@@ -53,15 +60,15 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>http://jay3zhang.github.io/my-super-post.html</loc>
-<lastmod>2012-03-04T11:02:31+08:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.7</priority>
+<loc>http://jay3zhang.github.io/category/linuxunix.html</loc>
+<lastmod>2014-09-25T16:47:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://jay3zhang.github.io/category/linuxunix.html</loc>
-<lastmod>2014-09-25T16:47:00+08:06</lastmod>
+<loc>http://jay3zhang.github.io/category/note.html</loc>
+<lastmod>2017-03-20T11:03:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -81,28 +88,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>http://jay3zhang.github.io/tag/publishing.html</loc>
-<lastmod>2012-03-04T11:02:31+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>http://jay3zhang.github.io/tag/facts.html</loc>
-<lastmod>2014-09-25T16:47:00+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>http://jay3zhang.github.io/tag/pelican.html</loc>
-<lastmod>2012-03-04T11:02:31+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>http://jay3zhang.github.io/tag/ansible.html</loc>
+<loc>http://jay3zhang.github.io/tag/test.html</loc>
 <lastmod>2014-09-25T16:47:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
@@ -116,29 +102,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>http://jay3zhang.github.io/author/alexis-metaireau.html</loc>
-<lastmod>2012-03-04T11:02:31+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>http://jay3zhang.github.io/author/conan-doyle.html</loc>
-<lastmod>2012-03-04T11:02:31+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
 <loc>http://jay3zhang.github.io/author/jay3zhang.html</loc>
-<lastmod>2017-03-19T17:03:00+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>http://jay3zhang.github.io/author/mcsrainbow.html</loc>
-<lastmod>2014-09-25T16:47:00+08:06</lastmod>
+<lastmod>2017-03-20T11:03:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
