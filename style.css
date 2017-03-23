@@ -1,0 +1,188 @@
+body{
+    background-color: #203046;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: ghostwhite;
+
+}
+
+
+.c-navbar{
+    background-color: #D5A500;
+    border-radius: 0px;
+    
+}
+
+.c-navbar.a{
+    color: whitesmoke;
+}
+
+
+.cat-label{
+    font-weight: bold;
+    word-spacing: 30px;
+    color: #FFD132;
+    border: 1px solid;
+    padding: 3px;
+    -webkit-transition: color 1s;
+-moz-transition: color 1s;
+-o-transition: color 1s;
+transition: color 1s;
+    
+    
+}
+
+.cat-label:hover{
+    color: whitesmoke;
+    text-decoration: none;
+    
+}
+
+
+
+
+.side-cont{
+    border: 0px solid #649CE4;
+    border-left: 1px solid #3B83DF;
+    border-right: 1px solid #3B83DF;
+    border-radius: 6px;
+    background-color: #203046;
+    color: ghostwhite;
+    
+}
+
+
+.side-row{
+    margin-bottom: 30px;
+
+
+}
+
+.cat-row{
+    margin-bottom: 30px;
+    background-color: #919090;
+    
+
+}
+
+.content-body-row{
+    
+    
+}
+
+
+.article-cont{
+    border: 0px solid #649CE4;
+    border-left: 1px solid ghostwhite;
+    border-right: 1px solid ghostwhite;
+    border-radius: 6px;
+    background-color: #203046;
+    color: whitesmoke;
+    
+}
+
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #3B83DF;
+    margin: 1em 0;
+    padding: 0; 
+}
+
+
+.article-footer{
+    font-size: 13px;
+}
+
+.article-title{
+    font-weight: bold
+}
+
+.article-summary{
+
+}
+
+
+table {
+    border-collapse: collapse;
+    border-style: hidden;
+    padding: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 10px;
+}
+
+table td, table th {
+    border: 1px solid ghostwhite;
+    padding: 6px;
+}
+
+
+.footer{
+    font-size: 12px;
+}
+
+.nav-link:hover{
+    background-color: #FFD132;
+
+}
+
+a{
+    color: #3B83DF;
+    -webkit-transition: color 0.5s;
+    -moz-transition: color 0.5s;
+-o-transition: color 0.5s;
+transition: color 0.5s;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.article-cat{
+    color: #FFD132;
+    border: 1px solid;
+    padding: 1px;
+
+}
+
+
+.social-ico{
+    color: ghostwhite;
+   
+}
+
+.social-ico:hover{
+    color: #3B83DF;
+}
+
+.article-title{
+    color: ghostwhite;
+    -webkit-transition: color 1.5s;
+    -moz-transition: color 1.5s;
+-o-transition: color 1.5s;
+transition: color 1.5s;
+}
+
+.article-title:hover{
+    color: #639BE4;
+
+}
+
+.nav-bacg{
+    border-radius: 5px;
+    -webkit-transition: background-color 1s;
+    -moz-transition: background-color 1s;
+-o-transition: background-color 1s;
+transition: background-color 1s;
+    
+}
+
+.nav-bacg:hover{
+    background-color: ghostwhite;
+}
+
+
+    
